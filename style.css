@@ -525,13 +525,9 @@ header:after, #main-nav:after{display: block;visibility: hidden;clear: both;	hei
 	-moz-transition: all ease-in-out 0.2s;
 	-o-transition: all ease-in-out 0.2s;
 	transition: all ease-in-out 0.2s;
+	display:none;
 }
 
-.date-header:hover{
-	background: #000;
-	color: #fff;
-	border: 1px dashed #fff;
-}
 
 a.nav-box{
 	float: right;
@@ -874,8 +870,8 @@ ul.top-menu li a.last {
   -moz-osx-font-smoothing: grayscale;
 }
 .logo:hover, .logo:focus, .logo:active {
-  -webkit-animation-name: logo;
-  animation-name: logo;
+  -webkit-animation-name: none;
+  animation-name: none;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-timing-function: ease-in-out;
@@ -2931,7 +2927,7 @@ html[xmlns] .slides {display: block;}
 	letter-spacing: 1px;
 	line-height: 120%;
 	margin-bottom: 15px;
-	border-bottom: 1px solid #fff;
+	//border-bottom: 1px solid #fff;
 	padding-bottom: 13px;
 	position: relative;
 	display: inline-block;
@@ -2940,8 +2936,10 @@ html[xmlns] .slides {display: block;}
 .flex-caption h2 a{
 	display: block;
 	width: 100%;
-	border-top: 1px solid #fff;
+	//border-top: 1px solid #fff;
 	padding-top: 13px;
+	font-size: 2em;
+	text-shadow: 0 0 20px black, 0 0 10px black, 0 0 10px black;
 }
 
 .flex-caption h2 a:before{
@@ -3487,7 +3485,7 @@ h2.post-title a:hover { color: #F90909; }
 }
 
 .social-icons i.fa-rss,.social-icons i.fa-facebook,
-.social-icons i.fa-twitter,.social-icons i.fa-google-plus,
+.social-icons i.fa-twitter,.social-icons i.fa-instagram,.social-icons i.fa-google-plus,
 .social-icons i.fa-pinterest,.social-icons i.fa-youtube {    
    width: 30px;
    display: block;
@@ -3501,6 +3499,7 @@ h2.post-title a:hover { color: #F90909; }
 }
 i.fa-rss {background:#ff8000;}
 i.fa-twitter{background:#45b0e3; }
+i.fa-instagram{background:#125688; }
 i.fa-facebook{background:#39599f;}
 i.fa-google-plus{background:#fa0101;}
 i.fa-youtube{background:#cc181e;}
@@ -4223,3 +4222,7 @@ a.more-link:hover {
 	font-size: 14px;
 }
 .slidy-copy p.post-meta a:hover {color: #fff;}
+
+img{height:auto;}
+.flex-caption em, .flex-caption .above-entry-meta, .flex-caption h2 a:before,.flex-caption h2:before, .flex-caption h2 a:after{display:none; border-top:none;}
+.slider_readmore{display:none;}
