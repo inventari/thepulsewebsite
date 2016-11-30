@@ -9,37 +9,37 @@
 			   <div class="social-icons">
                      
                     <?php if ( '' !== get_theme_mod( 'rss_link' ) ) { ?>
-		            <a href="<?php echo esc_url(get_theme_mod('rss_link','#feed')); ?>"title="RSS Feed">
+		            <a target="_blank" href="<?php echo esc_url(get_theme_mod('rss_link','#feed')); ?>"title="RSS Feed">
 						<i class="fa fa-rss"></i>
 					</a>
                     <?php } ?>
                     <?php if ( '' !== get_theme_mod( 'fb_link' ) ) { ?>
-					<a href="<?php echo esc_url(get_theme_mod('fb_link','#facebook')); ?>"title="Facebook">
+					<a target="_blank" href="<?php echo esc_url(get_theme_mod('fb_link','#facebook')); ?>"title="Facebook">
 						<i class="fa fa-facebook"></i>
 					</a>
                     <?php } ?>   
                      <?php if ( '' !== get_theme_mod( 'twitt_link' ) ) { ?>
-					<a href="<?php echo esc_url(get_theme_mod('twitt_link','#twitter')); ?>"title="Twitter">
+					<a target="_blank" href="<?php echo esc_url(get_theme_mod('twitt_link','#twitter')); ?>"title="Twitter">
 						<i class="fa fa-twitter"></i>
 					</a>
                      <?php } ?> 
                     <?php if ( '' !== get_theme_mod('gplus_link') ) { ?>
-					<a href="<?php echo esc_url(get_theme_mod('gplus_link','#gplus')); ?>"title="Google+">
+					<a target="_blank" href="<?php echo esc_url(get_theme_mod('gplus_link','#gplus')); ?>"title="Google+">
 						<i class="fa fa-google-plus"></i>					
 					</a>
                      <?php } ?>
                      <?php if ( '' !== get_theme_mod('pinterest_link') ) { ?>
-					<a href="<?php echo esc_url(get_theme_mod('pinterest_link','#pinterest')); ?>"title="Pinterest">
+					<a target="_blank" href="<?php echo esc_url(get_theme_mod('pinterest_link','#pinterest')); ?>"title="Pinterest">
 						<i class="fa fa-pinterest"></i>					
 					</a>
                      <?php } ?>
                     <?php if ( '' !== get_theme_mod('youtube_link') ) { ?>
-					<a href="<?php echo esc_url(get_theme_mod('youtube_link','#youtube')); ?>"title="Youtube">
+					<a target="_blank" href="<?php echo esc_url(get_theme_mod('youtube_link','#youtube')); ?>"title="Youtube">
 						<i class="fa fa-youtube"></i>						
 				    </a>
                      <?php } ?> 
-		     <?php if ( '' !== get_theme_mod('instagram_link') ) { ?>
-					<a href="<?php echo esc_url(get_theme_mod('instagram_link','#instagram')); ?>"title="Instagram">
+		     <?php if ( '' !== get_theme_mod('insta_link') ) { ?>
+					<a target="_blank" href="<?php echo esc_url(get_theme_mod('insta_link','#instagram')); ?>"title="Instagram">
 						<i class="fa fa-instagram"></i>						
 				    </a>
                      <?php } ?> 
